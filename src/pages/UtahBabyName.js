@@ -7,8 +7,9 @@ const UtahBabyName = () => {
   const handleName = (e) => {
     let x = e.split('')
     for(let i=0; i < x.length; i++){
-      if (x[i] == "y"){
+      if (x[i] === "y"){
         let i = "i"
+        return i
       }
     }
       x.join('')

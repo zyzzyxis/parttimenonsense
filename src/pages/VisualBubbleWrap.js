@@ -2,8 +2,8 @@ import React, {useState} from 'react'
 
 
 const VisualBubbleWrap = () => {
-  const [bgcolor, setBgcolor] = useState('')
-  // a.addEventListener("click", changeBodyBg)
+//   const [bgcolor, setBgcolor] = useState('')
+//   a.addEventListener("click", changeBodyBg)
   const changeBodyBg = (color)=>{
     document.body.style.background = color;
   }
@@ -17,7 +17,7 @@ const VisualBubbleWrap = () => {
    'red',
    'yellow'
  ]
-
+  
   return (
     <>
     <button type='button'  onClick={randomColor()}   >try this</button>
@@ -25,6 +25,7 @@ const VisualBubbleWrap = () => {
     <button type='button'  onClick={randomColor()}   >try this</button>
     <button type='button'  onClick={randomColor()}   >try this</button>
     <button type='button'  onClick={randomColor()}   >try this</button>
+    
     </>
   )
 }
