@@ -6,6 +6,8 @@ import VisualBubbleWrap from './pages/VisualBubbleWrap';
 import DreadClock from './pages/DreadClock';
 import BadQuotes from './pages/BadQuotes';
 import UtahBabyName from './pages/UtahBabyName';
+import Chores from './pages/Chores';
+
 
 function App() {
   return (
@@ -19,10 +21,12 @@ function App() {
       <Route exact path="/connect" component={ContactMe} />
       <Route exact path="/badquotes" component={BadQuotes} />
       <Route exact path="/utahbabyname" component={UtahBabyName} />
+      <Route exact path="/chores" component={Chores} />
     </Switch>
     <br/>
    
     </div>
+   
     </>
   );
 }
