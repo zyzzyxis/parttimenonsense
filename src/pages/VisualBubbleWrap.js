@@ -1,35 +1,32 @@
 import React from 'react'
+import '../components/bubbles.css'
+
 
 
 const VisualBubbleWrap = () => {
-//   const [bgcolor, setBgcolor] = useState('')
-//   a.addEventListener("click", changeBodyBg)
-  const changeBodyBg = (color)=>{
-    document.body.style.background = color;
-  }
 
-  const randomColor = () => {
-    changeBodyBg(bgrd[Math.floor(Math.random() * bgrd.length)] )
-  }
-
- let bgrd = [
-   'green',
-   'red',
-   'yellow'
- ]
-  
   return (
     <>
-    <button type='button'  onClick={randomColor()}   >try this</button>
-    <button type='button'  onClick={randomColor()}   >try this</button>
-    <button type='button'  onClick={randomColor()}   >try this</button>
-    <button type='button'  onClick={randomColor()}   >try this</button>
-    <button type='button'  onClick={randomColor()}   >try this</button>
-    
+
+    <div>
+ 
+        <a href="#" className="hover-bg1">Blue</a>
+        <button className="hover-bg2">Blue</button>
+        <button className="hover-bg3">Blue</button>
+        <button className="hover-bg4">Blue</button>
+        <button className="hover-bg5">Blue</button>
+        <button className="hover-bg6">Blue</button>
+     
+    </div>
     </>
   )
+
+  
+  
 }
 
+
+ 
 
 export default VisualBubbleWrap
 
